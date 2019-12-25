@@ -1,0 +1,21 @@
+*.vscdb
+*.backup
+
+data/tmp
+data/user-data/Backups
+data/user-data/Cache
+data/user-data/CachedData
+data/user-data/CachedExtensions
+data/user-data/Code Cache
+data/user-data/GPUCache
+data/user-data/logs
+
+data/user-data/Cookies
+data/user-data/Cookies-journal
+data/user-data/Network Persistent State
+data/user-data/languagepacks.json
+data/user-data/machineid
+data/user-data/rapid_render.json
+data/user-data/storage.json
+
+!data/user-data/User/settings.json
