@@ -1,0 +1,80 @@
+{
+    "editor.renderWhitespace": "selection",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrapColumn": 120,
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.dragAndDrop": false,
+    "editor.mouseWheelZoom": true,
+    "files.exclude": {
+        "**/.idea": true
+    },
+    "telemetry.enableTelemetry": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "all",
+    "editor.smoothScrolling": true,
+    "editor.wrappingIndent": "indent",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "diffEditor.renderSideBySide": true,
+    "editor.minimap.showSlider": "always",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.list.horizontalScrolling": true,
+    "workbench.startupEditor": "readme",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "window.menuBarVisibility": "visible",
+    "window.restoreWindows": "all",
+    "window.openFoldersInNewWindow": "on",
+    "window.openWithoutArgumentsInNewWindow": "on",
+    "search.location": "panel",
+    "search.enableSearchEditorPreview": true,
+    "search.showLineNumbers": true,
+    "search.useIgnoreFiles": false,
+    "debug.inlineValues": true,
+    "debug.openExplorerOnEnd": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "extensions.autoUpdate": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.rightClickBehavior": "default",
+    "problems.showCurrentInStatus": true,
+    "update.mode": "start",
+    "git.suggestSmartCommit": false,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "markdown.preview.linkify": false,
+    "markdown.preview.openMarkdownLinks": "inEditor",
+    "merge-conflict.diffViewPosition": "Below",
+    "scss.lint.compatibleVendorPrefixes": "warning",
+    "scss.lint.ieHack": "warning",
+    "scss.lint.important": "warning",
+    "scss.lint.universalSelector": "warning",
+    "scss.lint.unknownVendorSpecificProperties": "warning",
+    "javascript.preferences.quoteStyle": "double",
+    "typescript.preferences.quoteStyle": "double",
+    "typescript.surveys.enabled": false,
+}
+
+/*
+    // Command Prompt
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+    // PowerShell
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    // Git Bash
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    // Bash on Ubuntu (on Windows)
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+*/
