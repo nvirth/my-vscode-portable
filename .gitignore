@@ -1,7 +1,8 @@
 *.vscdb
 *.backup
 
-data/tmp
+data/tmp/*
+!data/tmp/.gitkeep
 data/user-data/Backups
 data/user-data/Cache
 data/user-data/CachedData
