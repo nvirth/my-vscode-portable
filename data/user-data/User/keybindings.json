@@ -288,5 +288,34 @@
         "key": "ctrl+k ctrl+oem_6",
         "command": "-editor.unfoldRecursively",
         "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "-editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "-deleteAllRight",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "bookmarks.listFromAllFiles"
     }
 ]
