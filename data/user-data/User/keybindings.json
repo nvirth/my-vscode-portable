@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+numpad_divide",
+        "key": "ctrl+k ctrl+c",
         "command": "editor.action.addCommentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -114,7 +114,7 @@
         "when": "fileMatchOrFolderMatchWithResourceFocus"
     },
     {
-        "key": "ctrl+numpad_add",
+        "key": "ctrl+numpad_subtract",
         "command": "editor.fold",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -128,7 +128,7 @@
         "command": "-workbench.action.zoomIn"
     },
     {
-        "key": "ctrl+shift+numpad_add",
+        "key": "ctrl+shift+numpad_subtract",
         "command": "editor.foldAll",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -138,7 +138,7 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+alt+numpad_add",
+        "key": "ctrl+alt+numpad_subtract",
         "command": "editor.foldRecursively",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -210,7 +210,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+k ctrl+c",
+        "key": "ctrl+numpad_divide",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -258,5 +258,35 @@
     {
         "key": "ctrl+numpad_subtract",
         "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+numpad_add",
+        "command": "editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+oem_6",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+numpad_add",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+alt+numpad_add",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+oem_6",
+        "command": "-editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
     }
 ]
