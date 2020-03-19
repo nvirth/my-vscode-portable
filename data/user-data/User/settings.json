@@ -72,6 +72,13 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "files.hotExit": "onExitAndWindowClose",
+    "typescript.suggest.completeFunctionCalls": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "bookmarks.sideBar.expanded": true,
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.waitForDebugger": true,
+    "bookmarks.useWorkaroundForFormatters": true,
 }
 
 /*
