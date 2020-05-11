@@ -79,6 +79,9 @@
     "omnisharp.enableRoslynAnalyzers": true,
     "omnisharp.waitForDebugger": true,
     "bookmarks.useWorkaroundForFormatters": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
 
 /*
