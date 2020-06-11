@@ -1,0 +1,112 @@
+2020-06-10 19:57:23.112 +02:00 [INF] PowerShell runtime version: 5.1.16299.251, edition: Desktop
+2020-06-10 19:57:23.475 +02:00 [INF] highlight handler loaded
+2020-06-10 19:57:54.315 +02:00 [WRN] Unable to find PSSA settings file at 'd:\GIT\VideoClient\PSScriptAnalyzerSettings.psd1'. Loading default rules.
+2020-06-10 19:57:54.324 +02:00 [INF] PSScriptAnalyzer settings file not found. Falling back to default rules
+2020-06-10 20:01:33.030 +02:00 [ERR] Execution of the following command(s) completed with errors:
+
+    Microsoft.PowerShell.Core\Get-Command I -ErrorAction Ignore
+
+
+2020-06-10 20:01:33.043 +02:00 [FTL] Failed to handle notification textDocument/signatureHelp
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.PowerShell.EditorServices.Services.PowerShellContext.CommandHelpers.<GetCommandInfoAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerShell.EditorServices.Services.SymbolsService.<FindParameterSetsInFileAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerShell.EditorServices.Handlers.SignatureHelpHandler.<Handle>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at OmniSharp.Extensions.LanguageServer.Server.Pipelines.ResolveCommandPipeline`2.<Handle>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at OmniSharp.Extensions.JsonRpc.RequestRouterBase`1.<RouteRequest>d__9.MoveNext()
+2020-06-10 20:01:39.440 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing condition in if statement after 'if ('.
+2020-06-10 20:01:39.440 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:01:42.217 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing property name after reference operator.
+2020-06-10 20:01:42.217 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:01:48.029 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:01:50.187 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:02:08.743 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:02:11.005 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:02:11.005 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:02:13.276 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing statement block after if ( condition ).
+2020-06-10 20:02:27.168 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Unexpected token '{' in expression or statement.
+2020-06-10 20:02:27.168 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing closing ')' after expression in 'if' statement.
+2020-06-10 20:02:37.196 +02:00 [ERR] Execution of the following command(s) completed with errors:
+
+    Microsoft.PowerShell.Core\Get-Command e -ErrorAction Ignore
+
+
+2020-06-10 20:02:37.197 +02:00 [FTL] Failed to handle notification textDocument/signatureHelp
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.PowerShell.EditorServices.Services.PowerShellContext.CommandHelpers.<GetCommandInfoAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerShell.EditorServices.Services.SymbolsService.<FindParameterSetsInFileAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerShell.EditorServices.Handlers.SignatureHelpHandler.<Handle>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at OmniSharp.Extensions.LanguageServer.Server.Pipelines.ResolveCommandPipeline`2.<Handle>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.<Handle>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at OmniSharp.Extensions.JsonRpc.RequestRouterBase`1.<RouteRequest>d__9.MoveNext()
+2020-06-10 20:02:50.089 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Unexpected token '{' in expression or statement.
+2020-06-10 20:02:50.089 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing closing ')' after expression in 'if' statement.
+2020-06-10 20:02:56.664 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Unexpected token '{' in expression or statement.
+2020-06-10 20:02:56.665 +02:00 [WRN] textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing closing ')' after expression in 'if' statement.
