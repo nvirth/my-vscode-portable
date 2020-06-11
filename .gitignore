@@ -1,5 +1,6 @@
 *.vscdb
 *.backup
+*.log
 
 data/tmp/*
 !data/tmp/.gitkeep
