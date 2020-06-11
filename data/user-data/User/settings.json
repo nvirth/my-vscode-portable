@@ -79,9 +79,17 @@
     "omnisharp.enableRoslynAnalyzers": true,
     "omnisharp.waitForDebugger": true,
     "bookmarks.useWorkaroundForFormatters": true,
-    "[javascript]": {
+    "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.largeFileOptimizations": false,
+    "currentFilePath.defaultPathStyle": "windows",
 }
 
 /*
