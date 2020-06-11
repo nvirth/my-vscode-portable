@@ -27,7 +27,6 @@
     "workbench.commandPalette.preserveInput": true,
     "workbench.list.horizontalScrolling": true,
     "workbench.startupEditor": "readme",
-    "workbench.colorTheme": "Default Dark+",
     "workbench.editor.focusRecentEditorAfterClose": false,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.tabSizing": "shrink",

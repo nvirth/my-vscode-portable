@@ -354,9 +354,5 @@
     {
         "key": "ctrl+shift+s",
         "command": "workbench.action.files.saveAll"
-    },
-    {
-        "key": "f9",
-        "command": "editor.action.sortLinesAscending"
     }
 ]
