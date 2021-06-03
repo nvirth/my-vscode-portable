@@ -22,7 +22,6 @@
     "diffEditor.renderSideBySide": true,
     "editor.minimap.showSlider": "always",
     "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "workbench.commandPalette.preserveInput": true,
     "workbench.list.horizontalScrolling": true,
@@ -90,6 +89,9 @@
     },
     "editor.largeFileOptimizations": false,
     "currentFilePath.defaultPathStyle": "windows",
+    "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderLong}${separator}${appName}",
+    "local-history.path": "%Temp%\\VisualStudioCode_LocalHistoryPlugin",
+    "gitlens.views.search.files.layout": "tree",
 }
 
 /*
