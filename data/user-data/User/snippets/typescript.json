@@ -1,0 +1,110 @@
+{
+	// Place your snippets for typescript here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Lambda": {
+		"description": "Lambda",
+		"prefix": "la",
+		"body": [
+			"${1:x} => $1.$0"
+		]
+	},
+	"Lambda with {}": {
+		"description": "Lambda with {}",
+		"prefix": "laam",
+		"body": [
+			"${1:x} => {$1.$0}"
+		]
+	},
+	"Lambda (empty)": {
+		"description": "Lambda (empty)",
+		"prefix": "lam",
+		"body": [
+			"() => {$0}"
+		]
+	},
+	"Lambda method (public)": {
+		"description": "Lambda method (public)",
+		"prefix": "lamm",
+		"body": [
+			"public ${1:methodName} = () => {$0};"
+		]
+	},
+	"Lambda method (private)": {
+		"description": "Lambda method (private)",
+		"prefix": "lammp",
+		"body": [
+			"private ${1:methodName} = () => {$0};"
+		]
+	},
+	"Property (get, set)": {
+		"description": "Property (get, set)",
+		"prefix": "prop",
+		"body": [
+			"//#region ${1:myProperty}",
+			"private _$1: ${2:any};",
+			"public get $1(): $2 {",
+			"\treturn this._$1;",
+			"}",
+			"public set $1(value: $2) {",
+			"\tthis._$1 = value;",
+			"}",
+			"//#endregion $1$0",
+		]
+	},
+	"Property (lazy get)": {
+		"description": "Property (lazy get)",
+		"prefix": "propa",
+		"body": [
+			"//#region ${1:myProperty}",
+			"private _$1: ${2:any};",
+			"public get $1(): $2 {",
+			"\treturn this._$1 || (this._$1 = $0new $2());",
+			"}",
+			"//#endregion $1",
+		]
+	},
+	"Property (lazy get with calc.. method)": {
+		"description": "Property (lazy get with calc.. method)",
+		"prefix": "propac",
+		"body": [
+			"//#region ${1:myProperty}",
+			"private _$1: ${2:any};",
+			"public get $1(): $2 {",
+			"\treturn this._$1 || (this._$1 = this.calc$1());",
+			"}",
+			"private calc$1(): $2 {",
+			"\tlet result = $0new $2();",
+			"\treturn result;",
+			"}",
+			"//#endregion $1",
+		]
+	},
+	"region": {
+		"description": "region",
+		"prefix": "region",
+		"body": [
+			"//#region ${1:title}$0",
+			"//#endregion $1"
+		]
+	},
+	"function": {
+		"description": "function",
+		"prefix": "function",
+		"body": [
+			"function() {",
+			"\t$0",
+			"}"
+		]
+	}
+}
