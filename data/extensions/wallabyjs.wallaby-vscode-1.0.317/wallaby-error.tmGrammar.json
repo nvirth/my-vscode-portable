@@ -1,0 +1,28 @@
+{
+  "scopeName": "source.wallaby-error",
+  "patterns": [
+    {
+      "include": "#code"
+    }
+  ],
+  "repository": {
+    "code": {
+      "begin": "\u200b",
+      "end": "\u200b",
+      "patterns": [
+        {
+          "include": "source.ts"
+        },
+        {
+          "include": "source.js"
+        },
+        {
+          "include": "source.jsx"
+        },
+        {
+          "include": "source.tsx"
+        }
+      ]
+    }
+  }
+}
