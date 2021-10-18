@@ -22,3 +22,4 @@ data/user-data/storage.json
 
 !data/user-data/User/settings.json
 data/user-data/User/workspaceStorage
+data/extensions/ms-vscode.powershell-2020.4.0/sessions
