@@ -1,0 +1,66 @@
+{
+	"name": "jest-snapshot-language-support",
+	"displayName": "Jest Snapshot Language Support",
+	"description": "Syntax highlighting for Jest snapshots",
+	"version": "1.1.1",
+	"publisher": "tlent",
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"license": "MIT",
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "jest-snapshot",
+				"aliases": [
+					"Jest Snapshot",
+					"jest-snapshot"
+				],
+				"extensions": [
+					".js.snap",
+					".jsx.snap",
+					".ts.snap",
+					".tsx.snap"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "jest-snapshot",
+				"scopeName": "source.jest.snap",
+				"path": "./syntaxes/jest-snapshot.tmLanguage"
+			},
+			{
+				"scopeName": "jest-snapshot.injection",
+				"path": "./syntaxes/injection.tmLanguage.json",
+				"embeddedLanguages": {
+					"meta.embedded.inline.snap": "source.jest.snap"
+				},
+				"injectTo": [
+					"source.js",
+					"source.jsx",
+					"source.js.jsx",
+					"source.ts",
+					"source.tsx"
+				]
+			}
+		]
+	},
+	"homepage": "https://github.com/tlent/jest-snapshot-language-support",
+	"bugs": {
+		"url": "https://github.com/tlent/jest-snapshot-language-support/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tlent/jest-snapshot-language-support.git"
+	},
+	"__metadata": {
+		"id": "ebe34a3d-7f67-4c80-b9c3-4fba64b7f063",
+		"publisherId": "af9458bd-bad1-4798-bcae-09060bd6e68a",
+		"publisherDisplayName": "tlent"
+	}
+}
